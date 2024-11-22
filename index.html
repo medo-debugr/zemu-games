@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>zemu</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zemu Games</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Zemu Games</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="ابحث عن لعبة...">
+      <button onclick="searchGames()">بحث</button>
+    </div>
+  </header>
+  <main>
+    <div id="game-container" class="game-container"></div>
+    <div class="cart">
+      <h2>سلة المشتريات</h2>
+      <ul id="cart-items"></ul>
+      <p id="total-price">المجموع: $0</p>
+      <button onclick="checkout()">إتمام الشراء</button>
+    </div>
+  </main>
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; Zemu Games 2024</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
